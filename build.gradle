@@ -1,0 +1,16 @@
+group 'me.codeboy'
+version '1.0.0'
+
+apply plugin: 'idea'
+apply plugin: 'java'
+
+
+repositories {
+    jcenter()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'tw.edu.ntu.csie:libsvm:3.17'
+    compile 'me.codeboy.common:base:1.2.1'
+}
